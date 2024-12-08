@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('hero-image.jpg');
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
+
+.search {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.featured {
+    padding: 2em;
+    text-align: center;
+}
+
+.destination-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.destination-item {
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
